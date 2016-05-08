@@ -12,6 +12,9 @@
 		3E5CDD051CDE507800BBEDC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CDD031CDE507800BBEDC6 /* Main.storyboard */; };
 		3E5CDD071CDE507800BBEDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CDD061CDE507800BBEDC6 /* Assets.xcassets */; };
 		3E5CDD0A1CDE507800BBEDC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CDD081CDE507800BBEDC6 /* LaunchScreen.storyboard */; };
+		3E5CDD121CDE508900BBEDC6 /* bigMona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CDD111CDE508900BBEDC6 /* bigMona.jpg */; };
+		3E5CDD141CDE546400BBEDC6 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CDD131CDE546400BBEDC6 /* sky.jpg */; };
+		3E5CDD161CDE592A00BBEDC6 /* HistorgamDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CDD151CDE592A00BBEDC6 /* HistorgamDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3E5CDD061CDE507800BBEDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5CDD091CDE507800BBEDC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5CDD0B1CDE507800BBEDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5CDD111CDE508900BBEDC6 /* bigMona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigMona.jpg; sourceTree = "<group>"; };
+		3E5CDD131CDE546400BBEDC6 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		3E5CDD151CDE592A00BBEDC6 /* HistorgamDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistorgamDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		3E5CDCFE1CDE507800BBEDC6 /* MPS_Equalisation */ = {
 			isa = PBXGroup;
 			children = (
+				3E5CDD111CDE508900BBEDC6 /* bigMona.jpg */,
+				3E5CDD131CDE546400BBEDC6 /* sky.jpg */,
 				3E5CDCFF1CDE507800BBEDC6 /* AppDelegate.swift */,
 				3E5CDD011CDE507800BBEDC6 /* ViewController.swift */,
 				3E5CDD031CDE507800BBEDC6 /* Main.storyboard */,
 				3E5CDD061CDE507800BBEDC6 /* Assets.xcassets */,
 				3E5CDD081CDE507800BBEDC6 /* LaunchScreen.storyboard */,
 				3E5CDD0B1CDE507800BBEDC6 /* Info.plist */,
+				3E5CDD151CDE592A00BBEDC6 /* HistorgamDisplay.swift */,
 			);
 			path = MPS_Equalisation;
 			sourceTree = "<group>";
@@ -123,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5CDD0A1CDE507800BBEDC6 /* LaunchScreen.storyboard in Resources */,
+				3E5CDD141CDE546400BBEDC6 /* sky.jpg in Resources */,
 				3E5CDD071CDE507800BBEDC6 /* Assets.xcassets in Resources */,
 				3E5CDD051CDE507800BBEDC6 /* Main.storyboard in Resources */,
+				3E5CDD121CDE508900BBEDC6 /* bigMona.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5CDD021CDE507800BBEDC6 /* ViewController.swift in Sources */,
+				3E5CDD161CDE592A00BBEDC6 /* HistorgamDisplay.swift in Sources */,
 				3E5CDD001CDE507800BBEDC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
